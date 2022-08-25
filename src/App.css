@@ -1,6 +1,42 @@
 #root {
-  max-width: 1280px;
+  min-height: 100vh;
+  max-width: 65em;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.772);
+}
+
+.infoHeader {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wordContainer {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wordChip {
+  padding: 5px;
+  margin-right: 5px;
+}
+.selectedWord {
+  background-color: #b8e069;
+}
+.correctLetter {
+  color: white;
+}
+.wrongLetter {
+  color: red;
+}
+.previousWord {
+  color: blue;
+}
+
+.typeField {
+  padding: 20px;
 }

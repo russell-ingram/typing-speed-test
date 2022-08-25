@@ -1,3 +1,5 @@
+import shuffle from "../utils/shuffle";
+
 const wordBank = [
   "account",
   "act",
@@ -132,4 +134,6 @@ const wordBank = [
   "fruit",
 ]
 
-export default wordBank;
+const shuffledWordBank = shuffle(wordBank);
+
+export default shuffledWordBank;
